@@ -1,0 +1,35 @@
+.form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+  list-style: none;
+  padding: 0;
+
+}
+
+.change-stack {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  div {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    min-width: 200px;
+    overflow-wrap: break-word;
+    padding-inline: 10px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,42 @@
+.todo-item-container {
+  max-width: 300px;
+  min-width: 100px;
+  padding: 10px;
+
+  margin: 10px 0;
+
+  li {
+    margin-right: 40px;
+    cursor: pointer;
+    list-style: "👉";
+    text-align: start;
+    overflow-wrap: break-word;
+
+    font-size: 1.4em;
+
+    /* &::before { */
+    /*   content: "👉"; */
+    /*   text-decoration: initial; */
+    /*   margin-right: 10px; */
+    /* } */
+  }
+
+  button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    font-size: 1.4em;
+  }
+
+  .todo-button-remove {
+    background-color: red;
+    border-color: red;
+  }
+
+  .todo-button-check {
+    background-color: green;
+    border-color: green;
+  }
+}
